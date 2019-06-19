@@ -40,7 +40,7 @@ def rps1(win, lose, user):
     
 top = tkinter.Tk()
 top.wm_title("RPS1 Python GUI")
-top.minsize(width=350, height=150 )
+top.minsize(width=350, height=150 , bg='#f00')
 top.maxsize(width=350, height=150)
 B1 = tkinter.Button(top, text ="Rock", command = lambda: rps1(win, lose, 1))
 B1.grid(row=0, column=1)
